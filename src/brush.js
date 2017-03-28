@@ -307,7 +307,7 @@ function brush(dim) {
         dx,
         dy,
         moving,
-        shifting = signX && signY && event.shiftKey,
+        shifting = false, // ZK disable shift key
         lockX,
         lockY,
         point0 = mouse(that),
